@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/wait1/wait1.js",
   "dependencies": {
+    "hyper-json-immutable-parse": "^0.1.6",
     "lscache": "^1.0.5",
     "ws": "^0.7.1"
   }
