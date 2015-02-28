@@ -1,0 +1,31 @@
+{
+  "name": "wait1",
+  "version": "0.1.0",
+  "description": "javascript client for the wait1 protocol",
+  "main": "node.js",
+  "browser": {
+    "./node.js": "./browser.js"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wait1/wait1.js.git"
+  },
+  "keywords": [
+    "protocol",
+    "websocket",
+    "http"
+  ],
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wait1/wait1.js/issues"
+  },
+  "homepage": "https://github.com/wait1/wait1.js",
+  "dependencies": {
+    "lscache": "^1.0.5",
+    "ws": "^0.7.1"
+  }
+}
