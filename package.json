@@ -4,7 +4,7 @@
   "description": "javascript client for the wait1 protocol",
   "main": "node.js",
   "browser": {
-    "./node.js": "./browser.js"
+    "./node.js": "./browser/index.js"
   },
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/mocha"
@@ -27,6 +27,8 @@
   "dependencies": {
     "hyper-json-immutable-parse": "^0.1.6",
     "lscache": "^1.0.5",
-    "ws": "^0.7.1"
+    "qs": "^2.4.1",
+    "ws": "^0.7.1",
+    "xxhashjs": "0.0.5"
   }
 }
