@@ -1,6 +1,6 @@
 {
   "name": "wait1",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "javascript client for the wait1 protocol",
   "main": "node.js",
   "browser": {
