@@ -28,7 +28,7 @@
     "hyper-json-immutable-parse": "^0.1.6",
     "lscache": "^1.0.5",
     "qs": "^2.4.1",
-    "ws": "^0.7.1",
+    "ws": "^0.8.0",
     "xxhashjs": "0.0.5"
   }
 }
